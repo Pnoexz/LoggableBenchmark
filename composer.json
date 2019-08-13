@@ -1,0 +1,18 @@
+{
+    "name": "pnoexz/loggable-benchmark",
+    "description": "Benchmarks that implement PSR-3.",
+    "type": "library",
+    "require": {
+        "psr/log": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "Matias Pino",
+        "email": "pnoexz@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Pnoexz\\": "src/"
+        }
+    }
+}
